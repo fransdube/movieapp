@@ -4,7 +4,7 @@ A responsive web app that will allow users to search for movies using the APIs, 
 
 ![App Screenshot](screenshot.jpg)
 
-## ✨ Features
+## Features
 
 - **2x External API**:
   - OMDb API for basic movie information
@@ -15,7 +15,7 @@ A responsive web app that will allow users to search for movies using the APIs, 
   - Responsive grid layout
   - Smooth animations and transitions
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Frontend**:
   - JavaScript
@@ -25,27 +25,27 @@ A responsive web app that will allow users to search for movies using the APIs, 
   - [OMDb API](http://www.omdbapi.com/)
   - [TMDb API](https://www.themoviedb.org/)
 
-## 📦 Installation
+## Installation
 
-1. Clone the repository:
+Clone the repository:
    ```bash
    https://github.com/fransdube/movieapp.git
    cd movieapp
    
 Please get some free API keys:
 
-Register for a free OMDb API key
+Register for a free OMDb API key</b>
 Register for a free TMDb API key
 
 Add your API keys to api.js:
 
-javascript
-const OMDb_API_KEY = "your_omdb_key_here";
+javascript</b>
+const OMDb_API_KEY = "your_omdb_key_here";</b>
 const TMDb_API_KEY = "your_tmdb_key_here";
 
 Open index.html in your browser (no server required)
 
-🚀 Usage
+## Usage
 
 Enter a movie title in the search box
 
