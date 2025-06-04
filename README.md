@@ -54,18 +54,3 @@ Browse results with ratings from TMDb
 Click "Add to Watchlist" to save favorites
 
 View/remove items from your watchlist
-
-
-Planned Future Enhancements
-
-    Implement a "More Info" modal with detailed movie data
-
-    Add sorting/filtering options
-
-    Dark mode toggle
-
-    User ratings/reviews system
-
-
-    I acknowledge for the FREE APIs
-    OMDb and TMDb for their excellent APIs
