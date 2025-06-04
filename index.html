@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search App - W07 Assignment: Final Web Application Project</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <meta name="description" content="A simple movie search app using the OMDB API.">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Bookmark your favorite Movies</h1>
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search for a movie...">
+      <button id="search-btn">Search</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="loader" class="loader" style="display: none;"></div>
+    <section id="movie-results" class="movie-grid"></section>
+    <div id="pagination-controls" class="pagination" style="display: none;">
+      <button id="prev-page-btn" aria-label="Previous Page">Previous</button>
+      <span id="page-info"></span>
+      <button id="next-page-btn" aria-label="Next Page">Next</button>
+    </div>
+    <section id="watchlist">
+      <h2>⭐ Your Watchlist</h2>
+      <div id="saved-movies"></div>
+    </section>
+  </main>
+
+  <script type="module" src="scripts/app.js"></script>
+  <footer>
+    <p>&copy; 2025 Movie Search App. All rights reserved. Created by MF Dube - W07 Assignment: Final Web Application Project</p>
+    <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> Movie data provided by <a href="https://www.omdbapi.com/" target="_blank">OMDb API</a></p>
+</body>
+</html>
